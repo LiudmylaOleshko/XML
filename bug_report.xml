@@ -1,1 +1,24 @@
-
+<?xml version="1.0" ?>
+<BugReport>
+	<Id>BR789431</Id>
+	<Summary>Не змінюється мова сторінки на сторінках Логін та Реєстрація</Summary>
+	<PreConditions>
+		<action>Відкрити сайт</action>
+		<action>Користувач не повинен бути залогинений</action>
+	</PreConditions>
+	<Steps>
+		<action>1.Натиснути на кнопку 'Вхід'</action>
+		<action>2. Натиснути на кнопку 'Укр' в правій верхній частині сторінки</action>
+		<action>3. Натиснути на кнопку 'Eng' в правій верхній частині сторінки</action>
+		<action>4. Натиснути кнопку 'Реєстрація'</action>
+		<action>5. Натиснути на кнопку 'Укр' в правій верхній частині сторінки</action>
+		<action>6. Натиснути на кнопку 'Eng' в правій верхній частині сторінки</action>
+	</Steps>
+	<ExpectedResult>Сторінка повинна бути перекладена на українську мову</ExpectedResult>
+	<ActualResult>Зміна локалізації не працює</ActualResult>
+	<Environment>всі браузери</Environment>
+	<Severity>Low</Severity>
+	<Priority>Low</Priority>
+	<Type>Localization</Type>
+	<Attachment>Picture</Attachment>
+</BugReport>
