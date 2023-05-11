@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Skills>
+	<HardSkills>
+		<OperatingSystem>
+			<Unix/>
+			<Microsoft/>
+			<Windows/>
+		</OperatingSystem>
+		<Browsers>
+			<Chrome/>
+			<MicrosoftEdge/>
+			<Opera/>
+		</Browsers>
+		<BugTracking>
+			<Jira/>
+		</BugTracking>
+		<Tools>
+			<Postman/>
+			<GitHub/>
+			<Fiddler/>
+			<Charles/>
+			<JMeter/>
+		</Tools>
+	</HardSkills>
+	<SoftSkills>
+		<purposefulness/>
+		<self-organization/>
+		<communication/>
+		<responsibility/>
+		<multitasking/>
+		<attentiveness/>
+	</SoftSkills>
+</Skills> 
+
